@@ -1,15 +1,23 @@
-# 專案作品集入口
+# Guang 的資料作品集
 
-這個 Streamlit 網站是作品集的集中入口，提供以下專案的介紹與連結：
+透過資料分析探索消費者行為與電商營運，從作品集入口前往線上成果，或查看 GitHub 專案原始碼。
 
-- **信用卡消費分析**：瀏覽信用卡消費分析文件與成果。
-- **Olist 電商分析**：瀏覽 Olist 電商資料分析專案。
+## 作品集入口
 
-## 線上入口
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://my-all-proj.streamlit.app/)
 
-Streamlit 網站部署完成後，請將下方網址替換成 Streamlit Community Cloud 提供的應用程式網址，讓訪客可以從 GitHub README 直接進入作品集：
+**[前往 Streamlit 專案作品集](https://my-all-proj.streamlit.app/)**
 
-> 尚未部署：請在部署完成後補上 Streamlit 網站網址。
+## 精選專案
+
+| 專案 | 線上成果 | GitHub 原始碼 |
+| --- | --- | --- |
+| 信用卡消費分析 | [閱讀分析文件](https://little-guang.github.io/credit_card/docs/index.html) | [credit_card](https://github.com/little-guang/credit_card) |
+| Olist 電商分析 | [瀏覽專案成果](https://little-guang.github.io/olist_proj/) | [olist_proj](https://github.com/little-guang/olist_proj) |
+
+## 關於我
+
+[GitHub 個人頁 · little-guang](https://github.com/little-guang)
 
 ## 本機執行
 
@@ -25,6 +33,4 @@ uv run streamlit run src/streamlit_all_proj/app.py
 1. 前往 [Streamlit Community Cloud](https://share.streamlit.io/) 並登入 GitHub。
 2. 建立新 app，選擇 `little-guang/streamlit_all_proj` 儲存庫與 `master` 分支。
 3. 將主程式路徑設為 `src/streamlit_all_proj/app.py`，然後部署。
-4. 部署完成後，將取得的 app 網址放到本 README 的「線上入口」，並可在 GitHub 儲存庫的 About 區域加入相同網址。
-
-部署後，訪客即可依序從 GitHub README 進入 Streamlit 作品集，再開啟信用卡分析文件或 Olist 專案。
+4. 部署完成後，可在 GitHub 儲存庫的 About 區域將 `https://my-all-proj.streamlit.app/` 設為 Website，讓訪客也能從儲存庫頁面直接開啟作品集。
