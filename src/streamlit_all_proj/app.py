@@ -85,15 +85,18 @@ st.markdown(
     .hero h1 {
         margin: 1.2rem 0 0.75rem;
         color: var(--ink);
-        font-size: clamp(1.8rem, 5.5vw, 4.25rem);
+        font-size: clamp(2.2rem, 6vw, 4.5rem);
         font-weight: 800;
         letter-spacing: -0.055em;
         line-height: 1.25;
     }
 
-    .hero h1 span {
-        display: block;
+    .hero-subtitle {
+        margin: 0 0 1.25rem;
         color: var(--mint);
+        font-size: clamp(0.95rem, 2vw, 1.2rem);
+        font-weight: 600;
+        letter-spacing: 0.02em;
     }
 
     .hero p {
@@ -243,7 +246,8 @@ st.markdown(
     f"""
     <section class="hero">
         <span class="eyebrow">✦ Data &amp; Analytics Portfolio</span>
-        <h1>台灣信用卡違約預測<span>巴西電商數據分析</span></h1>
+        <h1>數據探索，洞察真實世界</h1>
+        <p class="hero-subtitle">台灣信用卡違約預測｜巴西電商數據分析</p>
         <p>
             歡迎來到我的資料分析作品集。這裡整理了台灣信用卡違約預測與
             Olist 電商分析專案，歡迎閱讀線上成果或前往 GitHub 查看原始碼。
