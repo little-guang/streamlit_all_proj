@@ -238,9 +238,9 @@ st.markdown(
     f"""
     <section class="hero">
         <span class="eyebrow">✦ Data &amp; Analytics Portfolio</span>
-        <h1>從資料出發，<br>找到有用的洞察。</h1>
+        <h1>台灣信用卡違約預測<br>× 巴西電商數據分析</h1>
         <p>
-            歡迎來到我的資料分析作品集。這裡整理了信用卡消費分析與
+            歡迎來到我的資料分析作品集。這裡整理了台灣信用卡違約預測與
             Olist 電商分析專案，歡迎閱讀線上成果或前往 GitHub 查看原始碼。
         </p>
         <a class="profile-link" href="{GITHUB_PROFILE}" target="_blank" rel="noopener noreferrer">
@@ -268,8 +268,8 @@ with credit_card:
         f"""
         <article class="project-card">
             <div class="project-icon">💳</div>
-            <h3>信用卡消費分析</h3>
-            <p>從信用卡消費資料探索顧客行為、消費型態與分析模型，閱讀完整專案文件與成果。</p>
+            <h3>台灣信用卡違約預測</h3>
+            <p>運用信用卡資料建立模型，預測持卡人是否可能違約，並探索影響違約風險的因素。</p>
             <div class="card-links">
                 <a href="{CREDIT_CARD_SITE}" target="_blank" rel="noopener noreferrer">↗ 線上分析文件</a>
                 <a href="{CREDIT_CARD_REPO}" target="_blank" rel="noopener noreferrer">⌘ GitHub 原始碼</a>
