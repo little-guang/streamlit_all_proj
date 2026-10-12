@@ -246,7 +246,7 @@ st.markdown(
     f"""
     <section class="hero">
         <span class="eyebrow">✦ Data &amp; Analytics Portfolio</span>
-        <h1>數據探索，洞察真實世界</h1>
+        <h1>用數據解讀風險與市場</h1>
         <p class="hero-subtitle">台灣信用卡違約預測｜巴西電商數據分析</p>
         <p>
             歡迎來到我的資料分析作品集。這裡整理了台灣信用卡違約預測與
