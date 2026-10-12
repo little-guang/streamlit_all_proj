@@ -238,7 +238,7 @@ st.markdown(
     f"""
     <section class="hero">
         <span class="eyebrow">✦ Data &amp; Analytics Portfolio</span>
-        <h1>把資料，變成<br>有用的洞察。</h1>
+        <h1>從資料出發，<br>找到有用的洞察。</h1>
         <p>
             歡迎來到我的資料分析作品集。這裡整理了信用卡消費分析與
             Olist 電商分析專案，歡迎閱讀線上成果或前往 GitHub 查看原始碼。
